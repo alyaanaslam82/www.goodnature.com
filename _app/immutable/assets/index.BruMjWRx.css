@@ -1,0 +1,67 @@
+@keyframes svelte-7dmwo2-shine {
+    0% {
+        background-position: -200%
+    }
+    to {
+        background-position: 200%
+    }
+}
+
+@keyframes svelte-7dmwo2-float {
+    0%,
+    to {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-5px)
+    }
+}
+
+.shine.svelte-7dmwo2 {
+    background-image: linear-gradient(to right, #ffffff0d, #ffffff20, #ffffff0d);
+    background-size: 200% auto;
+    animation: svelte-7dmwo2-shine 5s linear infinite, svelte-7dmwo2-float 3s ease-in-out infinite
+}
+
+.embla.svelte-1ktycq9 {
+    overflow: hidden
+}
+
+.embla__container.svelte-1ktycq9 {
+    display: flex
+}
+
+.embla__slide.svelte-1ktycq9 {
+    flex: 0 0 100%;
+    min-width: 0
+}
+
+.special-field.svelte-1xsfdjk {
+    display: none
+}
+
+.fading-edges.svelte-no30vc {
+    -webkit-mask-image: linear-gradient(transparent, #000 15%, #000 85%, transparent), linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+    mask-image: linear-gradient(transparent, #000 15%, #000 85%, transparent), linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+    -webkit-mask-composite: source-in, xor;
+    mask-composite: intersect
+}
+
+.card.svelte-35sk6f {
+    position: sticky;
+    top: 10vh;
+    transform-origin: center
+}
+
+.shadow.svelte-35sk6f {
+    box-shadow: #00000040 0 -94px 115px, #00000020 0 -32px 60px, #00000020 0 -12px 18px, #0000002b 0 -24px 28px, #00000017 0 -7px 10px
+}
+
+.no-scrollbar.svelte-cv6cu7::-webkit-scrollbar {
+    display: none
+}
+
+.no-scrollbar.svelte-cv6cu7 {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
